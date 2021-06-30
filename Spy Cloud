@@ -24,7 +24,7 @@ class ChromeSearch(unittest.TestCase):
         print(driver_chrome.title)
         print(driver_chrome.current_url)
         driver_chrome.find_element_by_xpath('//*[@alt="logo"]')
-        print(driver_chrome.find_element(By.TAG_NAME, "img").get_attribute("src"))  # SpyCloud logo image
+        print(driver_chrome.find_element(By.TAG_NAME, "img").get_attribute("src"))  # SpyCloud logo image.
 
         #  Наведение курсора на всплывающее окно. Клик на нужный элемент.
         #  Hover the cursor over a pop-up window. Click on the desired item.
@@ -105,7 +105,7 @@ class FirefoxSearch(unittest.TestCase):
         print(driver_Firefox.title)
         print(driver_Firefox.current_url)
         driver_Firefox.find_element_by_xpath('//*[@alt="logo"]')
-        print(driver_Firefox.find_element(By.TAG_NAME, "img").get_attribute("src"))  # SpyCloud logo image
+        print(driver_Firefox.find_element(By.TAG_NAME, "img").get_attribute("src"))  # SpyCloud logo image.
 
         time.sleep(1)
 
