@@ -88,7 +88,7 @@ class ChromeSearch(unittest.TestCase):
     def tearDownClass(self):
         self.driver.quit()  # Close the browser chrome 1062x722. Закрываем браузер.
 
-# Test in Firefox. Тест.
+# Test in Firefox. Тест....
 
 
 class FirefoxSearch(unittest.TestCase):
