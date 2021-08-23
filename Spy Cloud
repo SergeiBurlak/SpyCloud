@@ -57,7 +57,7 @@ class ChromeSearch(unittest.TestCase):
         WebDriverWait(driver_chrome, 10)
 
         #  Скрин ошибки 404.
-        #  404 error screen
+        #  404 error screen.
         driver_chrome.save_screenshot(r"C:\Users\14252\Documents\QA\Test SpyCloud\Error.png")
 
         time.sleep(1)
