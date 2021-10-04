@@ -65,7 +65,7 @@ class ChromeSearch(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()  # Close the browser. Закрываем браузер.
 
-#  Test in Chrome (1062x722)
+#  Test in Chrome (1062x722).
 
     def test_search_chrome_1062x722(self):
         driver_chrome = self.driver
