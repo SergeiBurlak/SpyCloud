@@ -27,7 +27,7 @@ class ChromeSearch(unittest.TestCase):
         print(driver_chrome.find_element(By.TAG_NAME, "img").get_attribute("src"))  # SpyCloud logo image.
 
         #  Наведение курсора на всплывающее окно. Клик на нужный элемент.
-        #  Hover the cursor over a pop-up window. Click on the desired item.
+        #  Hover the cursor over a pop-up window. Click on the desired item...
 
         action = ActionChains(driver_chrome)
         hidden_submenu = driver_chrome.find_element_by_xpath('//*[@id="wp-megamenu-item-13"]')
