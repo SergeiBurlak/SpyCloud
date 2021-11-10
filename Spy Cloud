@@ -105,7 +105,7 @@ class FirefoxSearch(unittest.TestCase):
         print(driver_Firefox.title)
         print(driver_Firefox.current_url)
         driver_Firefox.find_element_by_xpath('//*[@alt="logo"]')
-        print(driver_Firefox.find_element(By.TAG_NAME, "img").get_attribute("src"))       # SpyCloud logo image.......
+        print(driver_Firefox.find_element(By.TAG_NAME, "img").get_attribute("src"))       # SpyCloud logo image.
 
         time.sleep(1)
 
@@ -115,3 +115,4 @@ class FirefoxSearch(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+-----------------------------------------------------------
