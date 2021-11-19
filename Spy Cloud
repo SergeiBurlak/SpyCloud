@@ -50,7 +50,7 @@ class ChromeSearch(unittest.TestCase):
         #   if not 'Protect Your Highest-Risk Executives from Targeted Account Takeover' in driver_chrome.title:
         #       raise Exception('Title is wrong')
 
-        #  Клик на нужный элемент.
+        #  Клик на нужный элемент..
         #  Click on the desired item.
 
         driver_chrome.find_element_by_xpath('//*[@class="btn btn-gradient-hover"]').click()
